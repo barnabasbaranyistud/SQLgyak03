@@ -1,0 +1,26 @@
+1. feladat
+
+db.collection.find({},
+{
+  "user_id": 1,
+  "firstName": 1,
+  "lastname": 1,
+  "_id": 0
+})
+
+2. feladat
+
+db.collection.find({
+  "firstName": "Grace"
+},
+{
+  "email": 1,
+  "password": 1,
+  "_id": 0
+})
+
+4. feladat
+
+FILTER
+{class_id: 339, 
+student_id: {$lt: 100}}
